@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cajaizq{
+    /* border: 1px solid blue; */
+    width: 65%;
+}
+
+.cajaizq img{
+    width: 100%;
+    height: 100%;
+}
+
+.cajader{
+    font-family: 'Roboto', sans-serif;
+    width: 35%;
+    /* background-color: rgba(214, 226, 225, 0.486); */
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.text input{
+    border: none;
+    padding: 5px;
+    width: 400px;
+    font-size: 14px;
+}
+
+.detalle{
+    margin-bottom: 20px;
+}
+
+.detalle input{
+    border: none;
+    padding: 5px;
+    width: 400px;
+    font-size: 14px;
+}
+
+.coste input{
+    width: 400px;
+    font-size: 14px;
+}
+
+.asunto textarea{
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 404px;
+}
+
+div select{
+    border: none;
+}
+
+.puntos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.boton input{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    width: 80%;
+    background-color: rgb(64, 187, 224);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding: 5px;
+}

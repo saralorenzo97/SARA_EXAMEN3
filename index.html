@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparaciones</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="cajaizq">
+            <img src="IMG/fondo.jpg" alt="">
+        </div>
+
+        <div class="cajader">
+            <div class="titulo">
+                <h1>Servicio técnico</h1>
+            </div>
+        
+            <form action="" method="get">
+                <div class="text">
+                    <input type="text" placeholder="Nombre y Apellidos">
+                </div>
+
+                <div class="text">
+                    <input type="text" placeholder="Contacto" required>
+                </div>
+
+                <div class="text">
+                    <input type="email" placeholder="usuario@gmail.com" required>
+                </div>
+
+                <div class="detalle">
+                    <input type="text" list="option2" placeholder="Motivo">
+                    <datalist id="option2">
+                        <option value="Reparación " label=" software"></option>
+                        <option value="Reparación " label=" hardware"></option>
+                        <option value="Sustitución " label=" software"></option>
+                        <option value="Sustitución " label=" software"></option>
+                    </datalist>
+                </div>
+
+                <div class="text">
+                    <input type="text" placeholder="Marca/Modelo">
+                </div>
+
+                <div class="text">
+                    <input type="text" placeholder="Accesorios">
+                </div>
+
+                <div class="text">
+                    <input type="text" placeholder="IMEI">
+                </div>
+
+                <div class="text">
+                    <input type="text" placeholder="Código de desbloqueo">
+                </div>
+
+                <div class="asunto">
+                    <textarea name="asunto" id="" cols="42" rows="5" placeholder="Falla según el cliente"></textarea>
+                </div>
+
+                <div class="detalle">
+                    <select name="" id="">
+                        <option value="" label="Estado del equipo"></option>
+                        <option value="Regular" label="Regular"></option>
+                        <option value="Bueno" label="Bueno"></option>
+                        <option value="Rayado" label="Rayado"></option>
+                        <option value="Golpeado" label="Golpeado"></option>
+                        <option value="Nuevo" label="Nuevo"></option>
+                    </select>
+                </div>
+
+                <div class="text">
+                    <input type="number" name="" class="coste" placeholder="Coste estimado" min="1" max="1000">
+                </div>
+                <div class="text">
+                    <input type="text" placeholder="Atendido por">
+                </div>
+
+                <div class="puntos">
+                    <input type="radio" name="" id="puntos">Presupuesto
+                    <input type="radio" name="" id="puntos">Aceptado
+                    <input type="radio" name="" id="puntos">Renuncia presupuesto
+                </div>
+
+                <div class="boton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
